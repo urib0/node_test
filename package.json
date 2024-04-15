@@ -5,6 +5,9 @@
   "repository": "git@github.com:urib0/node_test.git",
   "author": "uribo <ur1b0.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn index.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.12.7",
     "ts-node-dev": "^2.0.0",
