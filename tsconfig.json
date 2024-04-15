@@ -5,17 +5,17 @@
     "lib": ["es2020"],
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    //    "rootDir": "./src",
     "strict": true,
     "moduleResolution": "node",
-//    "baseUrl": "src",
+    //    "baseUrl": "src",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  //  "include": ["src/**/*"],
   "exclude": ["dist", "node_modules"],
   "compileOnSave": false
 }

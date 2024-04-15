@@ -6,10 +6,13 @@
   "author": "uribo <ur1b0.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn index.ts"
+    "format": "prettier --write .",
+    "dev": "ts-node-dev --respawn index.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
+    "prettier": "^3.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
   }
